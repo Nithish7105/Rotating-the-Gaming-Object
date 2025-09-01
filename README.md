@@ -1,5 +1,6 @@
 # Rotating-the-Gaming-Object
-
+## Name: NITHISH KUMAR.B
+## Reg No: 212223040134
 ## Aim:
 To develop a 3D application for rotating the gaming objects in unity.
 ## Algorithm:
@@ -37,7 +38,28 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
+public class Rotate : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.left, Vector3.up, 40 * Time.deltaTime);
+    }
+}
+```
 ## Output:
+<img width="1896" height="1012" alt="exp1 op" src="https://github.com/user-attachments/assets/7b4aecc2-3673-4483-9666-9bd3ba4eede9" />
 
 ## Result:
+The 3D application for rotating the gaming objects in unity is executed sucessfully.
